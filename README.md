@@ -1,9 +1,12 @@
 # ![Logo](assets/icon.svg) Ludusavi
+
+[English](README.md) | [简体中文](README_CN.md)
 Ludusavi is a tool for backing up your PC video game save data,
 written in [Rust](https://www.rust-lang.org).
 It is cross-platform and supports multiple game stores.
 
 ## Features
+
 * Ability to back up data from more than 19,000 games plus your own custom entries.
 * Backup and restore for Steam, GOG, Epic, Heroic, Lutris, and other game libraries.
 * Both a graphical interface and command line interface for scripting.
@@ -26,13 +29,17 @@ If you'd like to help translate Ludusavi into other languages,
 [check out the Crowdin project](https://crowdin.com/project/ludusavi).
 
 ## Demo
+
 <!-- These anchors are kept for compatibility with old section headers. -->
+
 <a name="gui"></a>
 
 > ![GUI demo of previewing a backup](docs/demo-gui.gif)
 
 ## Installation
+
 <!-- These anchors are kept for compatibility with old section headers. -->
+
 <a name="requirements"></a>
 <a name="methods"></a>
 
@@ -55,7 +62,9 @@ Note:
   specifically the section on `If you want to open an app [...] from an unidentified developer`.
 
 ## Usage
+
 <!-- These anchors are kept for compatibility with old section headers. -->
+
 <a name="backup-exclusions"></a>
 <a name="backup-retention"></a>
 <a name="backup-structure"></a>
@@ -79,6 +88,7 @@ Note:
 Detailed help documentation is available for several topics.
 
 ### General
+
 * [Backup automation](/docs/help/backup-automation.md)
 * [Backup exclusions](/docs/help/backup-exclusions.md)
 * [Backup retention](/docs/help/backup-retention.md)
@@ -94,6 +104,7 @@ Detailed help documentation is available for several topics.
 * [Transfer between operating systems](/docs/help/transfer-between-operating-systems.md)
 
 ### Interfaces
+
 * [Application folder](/docs/help/application-folder.md)
 * [Backup structure](/docs/help/backup-structure.md)
 * [Command line](/docs/help/command-line.md)
@@ -102,6 +113,7 @@ Detailed help documentation is available for several topics.
 * [Logging](/docs/help/logging.md)
 
 ### Other
+
 * [Troubleshooting](/docs/help/troubleshooting.md)
 * [What if my saves aren't found?](/docs/help/missing-saves.md)
 
@@ -125,6 +137,7 @@ and that these projects are not officially affiliated with Ludusavi itself:
   * https://github.com/jose-l-martins/GSM-to-Ludusavi-converter
 
 ## Comparison with other tools
+
 There are other excellent backup tools available, but not a singular
 cross-platform and cross-store solution:
 
@@ -154,4 +167,5 @@ cross-platform and cross-store solution:
   * No command line interface.
 
 ## Development
+
 Please refer to [CONTRIBUTING.md](./CONTRIBUTING.md).
