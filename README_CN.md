@@ -1,5 +1,7 @@
 # ![Logo](assets/icon.svg) Ludusavi
 
+[English](README.md) | [简体中文](README_CN.md)
+
 Ludusavi 是一款用于备份 PC 视频游戏存档数据的工具，使用 [Rust](https://www.rust-lang.org) 编写。
 它具有跨平台特性，并支持多个游戏商店。
 
@@ -26,6 +28,7 @@ Ludusavi 是一款用于备份 PC 视频游戏存档数据的工具，使用 [Ru
 ## 演示
 
 <!-- 这些锚点保留用于兼容旧的章节标题。 -->
+
 <a name="gui"></a>
 
 > ![GUI 备份预览演示](docs/demo-gui.gif)
@@ -33,6 +36,7 @@ Ludusavi 是一款用于备份 PC 视频游戏存档数据的工具，使用 [Ru
 ## 安装
 
 <!-- 这些锚点保留用于兼容旧的章节标题。 -->
+
 <a name="requirements"></a>
 <a name="methods"></a>
 
@@ -49,6 +53,7 @@ Ludusavi 是一款用于备份 PC 视频游戏存档数据的工具，使用 [Ru
 ## 使用
 
 <!-- 这些锚点保留用于兼容旧的章节标题。 -->
+
 <a name="backup-exclusions"></a>
 <a name="backup-retention"></a>
 <a name="backup-structure"></a>
@@ -72,6 +77,7 @@ Ludusavi 是一款用于备份 PC 视频游戏存档数据的工具，使用 [Ru
 针对多个主题提供详细的帮助文档。
 
 ### 常规
+
 * [备份自动化](/docs/help/backup-automation.md)
 * [备份排除](/docs/help/backup-exclusions.md)
 * [备份保留](/docs/help/backup-retention.md)
@@ -87,6 +93,7 @@ Ludusavi 是一款用于备份 PC 视频游戏存档数据的工具，使用 [Ru
 * [跨操作系统转移](/docs/help/transfer-between-operating-systems.md)
 
 ### 界面
+
 * [程序文件夹](/docs/help/application-folder.md)
 * [备份结构](/docs/help/backup-structure.md)
 * [命令行](/docs/help/command-line.md)
@@ -95,6 +102,7 @@ Ludusavi 是一款用于备份 PC 视频游戏存档数据的工具，使用 [Ru
 * [日志记录](/docs/help/logging.md)
 
 ### 其他
+
 * [故障排除](/docs/help/troubleshooting.md)
 * [如果找不到存档怎么办？](/docs/help/missing-saves.md)
 
